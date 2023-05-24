@@ -6,6 +6,7 @@ import styles from './navbar.module.scss'
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+  console.log({started})
   useEffect(() => {
     // Close the menu when clicking outside of it
     const handleOutsideClick = (event) => {
